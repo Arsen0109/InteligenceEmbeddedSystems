@@ -1,0 +1,430 @@
+1708521714: mosquitto version 2.0.18 starting
+1708521714: Config loaded from /mosquitto/config/mosquitto.conf.
+1708521714: Opening ipv4 listen socket on port 1883.
+1708521714: Opening ipv6 listen socket on port 1883.
+1708521714: mosquitto version 2.0.18 running
+1708522133: mosquitto version 2.0.18 terminating
+1708522133: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708522138: mosquitto version 2.0.18 starting
+1708522138: Config loaded from /mosquitto/config/mosquitto.conf.
+1708522138: Opening ipv4 listen socket on port 1883.
+1708522138: Opening ipv6 listen socket on port 1883.
+1708522138: mosquitto version 2.0.18 running
+1708522249: mosquitto version 2.0.18 terminating
+1708522249: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708522254: mosquitto version 2.0.18 starting
+1708522254: Config loaded from /mosquitto/config/mosquitto.conf.
+1708522254: Opening ipv4 listen socket on port 1883.
+1708522254: Opening ipv6 listen socket on port 1883.
+1708522254: mosquitto version 2.0.18 running
+1708522587: mosquitto version 2.0.18 terminating
+1708522587: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708522592: mosquitto version 2.0.18 starting
+1708522592: Config loaded from /mosquitto/config/mosquitto.conf.
+1708522592: Opening ipv4 listen socket on port 1883.
+1708522592: Opening ipv6 listen socket on port 1883.
+1708522592: mosquitto version 2.0.18 running
+1708522614: mosquitto version 2.0.18 terminating
+1708522614: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708522631: mosquitto version 2.0.18 starting
+1708522631: Config loaded from /mosquitto/config/mosquitto.conf.
+1708522631: Opening ipv4 listen socket on port 1883.
+1708522631: Opening ipv6 listen socket on port 1883.
+1708522631: mosquitto version 2.0.18 running
+1708522733: mosquitto version 2.0.18 terminating
+1708522733: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708522746: mosquitto version 2.0.18 starting
+1708522746: Config loaded from /mosquitto/config/mosquitto.conf.
+1708522746: Opening ipv4 listen socket on port 1883.
+1708522746: Opening ipv6 listen socket on port 1883.
+1708522746: mosquitto version 2.0.18 running
+1708522749: mosquitto version 2.0.18 terminating
+1708522749: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708522996: mosquitto version 2.0.18 starting
+1708522996: Config loaded from /mosquitto/config/mosquitto.conf.
+1708522996: Opening ipv4 listen socket on port 1883.
+1708522996: Opening ipv6 listen socket on port 1883.
+1708522996: mosquitto version 2.0.18 running
+1708523045: mosquitto version 2.0.18 terminating
+1708523045: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708523058: mosquitto version 2.0.18 starting
+1708523058: Config loaded from /mosquitto/config/mosquitto.conf.
+1708523058: Opening ipv4 listen socket on port 1883.
+1708523058: Opening ipv6 listen socket on port 1883.
+1708523058: mosquitto version 2.0.18 running
+1708523233: mosquitto version 2.0.18 terminating
+1708523233: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708523845: mosquitto version 2.0.18 starting
+1708523845: Config loaded from /mosquitto/config/mosquitto.conf.
+1708523845: Opening ipv4 listen socket on port 1883.
+1708523845: Opening ipv6 listen socket on port 1883.
+1708523845: mosquitto version 2.0.18 running
+1708523978: mosquitto version 2.0.18 terminating
+1708523978: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708523983: mosquitto version 2.0.18 starting
+1708523983: Config loaded from /mosquitto/config/mosquitto.conf.
+1708523983: Opening ipv4 listen socket on port 1883.
+1708523983: Opening ipv6 listen socket on port 1883.
+1708523983: mosquitto version 2.0.18 running
+1708523983: New connection from 172.25.0.3:34491 on port 1883.
+1708523983: New client connected from 172.25.0.3:34491 as auto-42973640-43D7-4F9B-ED28-C9FBC9AA8C2F (p2, c1, k60).
+1708523983: Client auto-42973640-43D7-4F9B-ED28-C9FBC9AA8C2F closed its connection.
+1708524127: mosquitto version 2.0.18 terminating
+1708524127: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708524132: mosquitto version 2.0.18 starting
+1708524132: Config loaded from /mosquitto/config/mosquitto.conf.
+1708524132: Opening ipv4 listen socket on port 1883.
+1708524132: Opening ipv6 listen socket on port 1883.
+1708524132: mosquitto version 2.0.18 running
+1708524132: New connection from 172.25.0.3:57197 on port 1883.
+1708524132: New client connected from 172.25.0.3:57197 as auto-37B064E3-EDF3-993C-922D-A0018B238053 (p2, c1, k60).
+1708524132: Client auto-37B064E3-EDF3-993C-922D-A0018B238053 closed its connection.
+1708524209: mosquitto version 2.0.18 terminating
+1708524209: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708524213: mosquitto version 2.0.18 starting
+1708524213: Config loaded from /mosquitto/config/mosquitto.conf.
+1708524213: Opening ipv4 listen socket on port 1883.
+1708524213: Opening ipv6 listen socket on port 1883.
+1708524213: mosquitto version 2.0.18 running
+1708524213: New connection from 172.25.0.3:56913 on port 1883.
+1708524213: New client connected from 172.25.0.3:56913 as auto-22BB446B-393E-B5AE-13FC-874EA20DD613 (p2, c1, k60).
+1708524214: Client auto-22BB446B-393E-B5AE-13FC-874EA20DD613 closed its connection.
+1708524230: mosquitto version 2.0.18 terminating
+1708524230: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708524237: mosquitto version 2.0.18 starting
+1708524237: Config loaded from /mosquitto/config/mosquitto.conf.
+1708524237: Opening ipv4 listen socket on port 1883.
+1708524237: Opening ipv6 listen socket on port 1883.
+1708524237: mosquitto version 2.0.18 running
+1708524238: New connection from 172.25.0.3:54829 on port 1883.
+1708524238: New client connected from 172.25.0.3:54829 as auto-4DE38797-7951-4A84-FD79-28FFD31680AE (p2, c1, k60).
+1708524238: Client auto-4DE38797-7951-4A84-FD79-28FFD31680AE closed its connection.
+1708524431: mosquitto version 2.0.18 terminating
+1708524431: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708524526: mosquitto version 2.0.18 starting
+1708524526: Config loaded from /mosquitto/config/mosquitto.conf.
+1708524526: Opening ipv4 listen socket on port 1883.
+1708524526: Opening ipv6 listen socket on port 1883.
+1708524526: mosquitto version 2.0.18 running
+1708524526: New connection from 172.25.0.3:38189 on port 1883.
+1708524526: New client connected from 172.25.0.3:38189 as auto-282FFE3C-2FE6-86C7-4C61-AE371D3D7BA0 (p2, c1, k60).
+1708524526: Client auto-282FFE3C-2FE6-86C7-4C61-AE371D3D7BA0 closed its connection.
+1708524621: mosquitto version 2.0.18 terminating
+1708524621: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708524714: mosquitto version 2.0.18 starting
+1708524714: Config loaded from /mosquitto/config/mosquitto.conf.
+1708524714: Opening ipv4 listen socket on port 1883.
+1708524714: Opening ipv6 listen socket on port 1883.
+1708524714: mosquitto version 2.0.18 running
+1708524735: mosquitto version 2.0.18 terminating
+1708524735: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708524740: mosquitto version 2.0.18 starting
+1708524740: Config loaded from /mosquitto/config/mosquitto.conf.
+1708524740: Opening ipv4 listen socket on port 1883.
+1708524740: Opening ipv6 listen socket on port 1883.
+1708524740: mosquitto version 2.0.18 running
+1708524741: New connection from 172.25.0.3:37421 on port 1883.
+1708524741: New client connected from 172.25.0.3:37421 as auto-3FC5EFD6-2B7E-6986-0BFB-86FF68B60848 (p2, c1, k60).
+1708524759: New connection from 172.25.0.1:57120 on port 1883.
+1708524759: New client connected from 172.25.0.1:57120 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708524771: New connection from 172.25.0.1:56766 on port 1883.
+1708524771: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708524771: New client connected from 172.25.0.1:56766 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708524932: Client mqtt-explorer-8ff66048 disconnected.
+1708524945: Client auto-3FC5EFD6-2B7E-6986-0BFB-86FF68B60848 closed its connection.
+1708524946: mosquitto version 2.0.18 terminating
+1708524946: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708525084: mosquitto version 2.0.18 starting
+1708525084: Config loaded from /mosquitto/config/mosquitto.conf.
+1708525084: Opening ipv4 listen socket on port 1883.
+1708525084: Opening ipv6 listen socket on port 1883.
+1708525084: mosquitto version 2.0.18 running
+1708525085: New connection from 172.26.0.3:58499 on port 1883.
+1708525085: New client connected from 172.26.0.3:58499 as auto-599FBC39-2823-229C-41DD-27B41A13F127 (p2, c1, k60).
+1708525133: New connection from 172.26.0.1:47344 on port 1883.
+1708525133: New client connected from 172.26.0.1:47344 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708525201: Client mqtt-explorer-8ff66048 disconnected.
+1708525216: Client auto-599FBC39-2823-229C-41DD-27B41A13F127 closed its connection.
+1708525216: mosquitto version 2.0.18 terminating
+1708525216: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708525709: mosquitto version 2.0.18 starting
+1708525709: Config loaded from /mosquitto/config/mosquitto.conf.
+1708525709: Opening ipv4 listen socket on port 1883.
+1708525709: Opening ipv6 listen socket on port 1883.
+1708525709: mosquitto version 2.0.18 running
+1708525710: New connection from 172.28.0.3:60035 on port 1883.
+1708525710: New client connected from 172.28.0.3:60035 as auto-5C126235-4EC4-E273-BA63-A3F192B4C092 (p2, c1, k60).
+1708525742: New connection from 172.28.0.1:37602 on port 1883.
+1708525742: New client connected from 172.28.0.1:37602 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708525748: Client mqtt-explorer-8ff66048 disconnected.
+1708525958: Client auto-5C126235-4EC4-E273-BA63-A3F192B4C092 closed its connection.
+1708525958: mosquitto version 2.0.18 terminating
+1708525958: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708526021: mosquitto version 2.0.18 starting
+1708526021: Config loaded from /mosquitto/config/mosquitto.conf.
+1708526021: Opening ipv4 listen socket on port 1883.
+1708526021: Opening ipv6 listen socket on port 1883.
+1708526021: mosquitto version 2.0.18 running
+1708526022: New connection from 172.28.0.3:43043 on port 1883.
+1708526022: New client connected from 172.28.0.3:43043 as auto-FC8093D7-ACF7-8C2B-732C-9194FB8E4ECE (p2, c1, k60).
+1708526028: New connection from 172.28.0.1:50540 on port 1883.
+1708526028: New client connected from 172.28.0.1:50540 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526100: Client auto-FC8093D7-ACF7-8C2B-732C-9194FB8E4ECE closed its connection.
+1708526100: mosquitto version 2.0.18 terminating
+1708526100: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708526332: mosquitto version 2.0.18 starting
+1708526332: Config loaded from /mosquitto/config/mosquitto.conf.
+1708526332: Opening ipv4 listen socket on port 1883.
+1708526332: Opening ipv6 listen socket on port 1883.
+1708526332: mosquitto version 2.0.18 running
+1708526333: New connection from 172.28.0.3:46837 on port 1883.
+1708526333: New client connected from 172.28.0.3:46837 as auto-812A8EAB-B03D-E59D-6F4B-5FD2E946E56D (p2, c1, k60).
+1708526333: New connection from 172.28.0.1:52890 on port 1883.
+1708526333: New client connected from 172.28.0.1:52890 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526364: Client auto-812A8EAB-B03D-E59D-6F4B-5FD2E946E56D closed its connection.
+1708526364: mosquitto version 2.0.18 terminating
+1708526364: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708526471: mosquitto version 2.0.18 starting
+1708526471: Config loaded from /mosquitto/config/mosquitto.conf.
+1708526471: Opening ipv4 listen socket on port 1883.
+1708526471: Opening ipv6 listen socket on port 1883.
+1708526471: mosquitto version 2.0.18 running
+1708526471: New connection from 172.28.0.3:44505 on port 1883.
+1708526471: New client connected from 172.28.0.3:44505 as auto-4035ABF4-DAC0-AC38-38D8-E0B545F26A9D (p2, c1, k60).
+1708526471: New connection from 172.28.0.1:56020 on port 1883.
+1708526471: New client connected from 172.28.0.1:56020 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526475: New connection from 172.28.0.1:56028 on port 1883.
+1708526475: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526475: New client connected from 172.28.0.1:56028 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526476: New connection from 172.28.0.1:54642 on port 1883.
+1708526476: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526476: New client connected from 172.28.0.1:54642 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526477: New connection from 172.28.0.1:54658 on port 1883.
+1708526477: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526477: New client connected from 172.28.0.1:54658 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526478: New connection from 172.28.0.1:54666 on port 1883.
+1708526478: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526478: New client connected from 172.28.0.1:54666 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526479: New connection from 172.28.0.1:54670 on port 1883.
+1708526479: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526479: New client connected from 172.28.0.1:54670 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526480: New connection from 172.28.0.1:54684 on port 1883.
+1708526480: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526480: New client connected from 172.28.0.1:54684 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526481: New connection from 172.28.0.1:54692 on port 1883.
+1708526481: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526481: New client connected from 172.28.0.1:54692 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526482: New connection from 172.28.0.1:54702 on port 1883.
+1708526482: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526482: New client connected from 172.28.0.1:54702 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526483: New connection from 172.28.0.1:54704 on port 1883.
+1708526483: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526483: New client connected from 172.28.0.1:54704 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526484: New connection from 172.28.0.1:54714 on port 1883.
+1708526484: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526484: New client connected from 172.28.0.1:54714 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526485: New connection from 172.28.0.1:54724 on port 1883.
+1708526485: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526485: New client connected from 172.28.0.1:54724 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526486: New connection from 172.28.0.1:59132 on port 1883.
+1708526486: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526486: New client connected from 172.28.0.1:59132 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526487: New connection from 172.28.0.1:59136 on port 1883.
+1708526487: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526487: New client connected from 172.28.0.1:59136 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526488: New connection from 172.28.0.1:59146 on port 1883.
+1708526488: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526488: New client connected from 172.28.0.1:59146 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526489: New connection from 172.28.0.1:59162 on port 1883.
+1708526489: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526489: New client connected from 172.28.0.1:59162 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526490: New connection from 172.28.0.1:59164 on port 1883.
+1708526490: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526490: New client connected from 172.28.0.1:59164 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526491: New connection from 172.28.0.1:59172 on port 1883.
+1708526491: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526491: New client connected from 172.28.0.1:59172 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526492: New connection from 172.28.0.1:59178 on port 1883.
+1708526492: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526492: New client connected from 172.28.0.1:59178 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526493: New connection from 172.28.0.1:59182 on port 1883.
+1708526493: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526493: New client connected from 172.28.0.1:59182 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526494: New connection from 172.28.0.1:59192 on port 1883.
+1708526494: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526494: New client connected from 172.28.0.1:59192 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526495: New connection from 172.28.0.1:59208 on port 1883.
+1708526495: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526495: New client connected from 172.28.0.1:59208 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526496: New connection from 172.28.0.1:39360 on port 1883.
+1708526496: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526496: New client connected from 172.28.0.1:39360 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526497: New connection from 172.28.0.1:39376 on port 1883.
+1708526497: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526497: New client connected from 172.28.0.1:39376 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526498: New connection from 172.28.0.1:39382 on port 1883.
+1708526498: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526498: New client connected from 172.28.0.1:39382 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526499: New connection from 172.28.0.1:39396 on port 1883.
+1708526499: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526499: New client connected from 172.28.0.1:39396 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526500: New connection from 172.28.0.1:39400 on port 1883.
+1708526500: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526500: New client connected from 172.28.0.1:39400 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526501: New connection from 172.28.0.1:39408 on port 1883.
+1708526501: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526501: New client connected from 172.28.0.1:39408 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526502: New connection from 172.28.0.1:39418 on port 1883.
+1708526502: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526502: New client connected from 172.28.0.1:39418 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526503: New connection from 172.28.0.1:39426 on port 1883.
+1708526503: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526503: New client connected from 172.28.0.1:39426 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526504: New connection from 172.28.0.1:39428 on port 1883.
+1708526504: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526504: New client connected from 172.28.0.1:39428 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526505: New connection from 172.28.0.1:39444 on port 1883.
+1708526505: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526505: New client connected from 172.28.0.1:39444 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526506: New connection from 172.28.0.1:52984 on port 1883.
+1708526506: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526506: New client connected from 172.28.0.1:52984 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526507: New connection from 172.28.0.1:52992 on port 1883.
+1708526507: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526507: New client connected from 172.28.0.1:52992 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526508: New connection from 172.28.0.1:53000 on port 1883.
+1708526508: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526508: New client connected from 172.28.0.1:53000 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526509: New connection from 172.28.0.1:53006 on port 1883.
+1708526509: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526509: New client connected from 172.28.0.1:53006 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526510: New connection from 172.28.0.1:53014 on port 1883.
+1708526510: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526510: New client connected from 172.28.0.1:53014 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526511: New connection from 172.28.0.1:53016 on port 1883.
+1708526511: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526511: New client connected from 172.28.0.1:53016 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526512: New connection from 172.28.0.1:53018 on port 1883.
+1708526512: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526512: New client connected from 172.28.0.1:53018 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526513: New connection from 172.28.0.1:53032 on port 1883.
+1708526513: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526513: New client connected from 172.28.0.1:53032 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526515: New connection from 172.28.0.1:53040 on port 1883.
+1708526515: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526515: New client connected from 172.28.0.1:53040 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526516: New connection from 172.28.0.1:53052 on port 1883.
+1708526516: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526516: New client connected from 172.28.0.1:53052 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526517: New connection from 172.28.0.1:45838 on port 1883.
+1708526517: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526517: New client connected from 172.28.0.1:45838 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526518: New connection from 172.28.0.1:45850 on port 1883.
+1708526518: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526518: New client connected from 172.28.0.1:45850 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526519: New connection from 172.28.0.1:45858 on port 1883.
+1708526519: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526519: New client connected from 172.28.0.1:45858 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526520: New connection from 172.28.0.1:45870 on port 1883.
+1708526520: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526520: New client connected from 172.28.0.1:45870 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526521: New connection from 172.28.0.1:45876 on port 1883.
+1708526521: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526521: New client connected from 172.28.0.1:45876 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526522: New connection from 172.28.0.1:45888 on port 1883.
+1708526522: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526522: New client connected from 172.28.0.1:45888 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526523: New connection from 172.28.0.1:45892 on port 1883.
+1708526523: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526523: New client connected from 172.28.0.1:45892 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526524: New connection from 172.28.0.1:45904 on port 1883.
+1708526524: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526524: New client connected from 172.28.0.1:45904 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526525: New connection from 172.28.0.1:45910 on port 1883.
+1708526525: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526525: New client connected from 172.28.0.1:45910 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526526: New connection from 172.28.0.1:45912 on port 1883.
+1708526526: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526526: New client connected from 172.28.0.1:45912 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526527: New connection from 172.28.0.1:36324 on port 1883.
+1708526527: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526527: New client connected from 172.28.0.1:36324 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526528: New connection from 172.28.0.1:36328 on port 1883.
+1708526528: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526528: New client connected from 172.28.0.1:36328 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526529: New connection from 172.28.0.1:36342 on port 1883.
+1708526529: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526529: New client connected from 172.28.0.1:36342 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526530: New connection from 172.28.0.1:36358 on port 1883.
+1708526530: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526530: New client connected from 172.28.0.1:36358 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526531: New connection from 172.28.0.1:36368 on port 1883.
+1708526531: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526531: New client connected from 172.28.0.1:36368 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526532: New connection from 172.28.0.1:36378 on port 1883.
+1708526532: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526532: New client connected from 172.28.0.1:36378 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526533: New connection from 172.28.0.1:36392 on port 1883.
+1708526533: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526533: New client connected from 172.28.0.1:36392 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526534: New connection from 172.28.0.1:36404 on port 1883.
+1708526534: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526534: New client connected from 172.28.0.1:36404 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526535: New connection from 172.28.0.1:36420 on port 1883.
+1708526535: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526535: New client connected from 172.28.0.1:36420 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526536: New connection from 172.28.0.1:36434 on port 1883.
+1708526536: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526536: New client connected from 172.28.0.1:36434 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526537: New connection from 172.28.0.1:33946 on port 1883.
+1708526537: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526537: New client connected from 172.28.0.1:33946 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526538: New connection from 172.28.0.1:33952 on port 1883.
+1708526538: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526538: New client connected from 172.28.0.1:33952 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526539: New connection from 172.28.0.1:33960 on port 1883.
+1708526539: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526539: New client connected from 172.28.0.1:33960 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526540: New connection from 172.28.0.1:33962 on port 1883.
+1708526540: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526540: New client connected from 172.28.0.1:33962 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526541: New connection from 172.28.0.1:33964 on port 1883.
+1708526541: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526541: New client connected from 172.28.0.1:33964 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526542: New connection from 172.28.0.1:33978 on port 1883.
+1708526542: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526542: New client connected from 172.28.0.1:33978 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526543: New connection from 172.28.0.1:33980 on port 1883.
+1708526543: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526543: New client connected from 172.28.0.1:33980 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526544: New connection from 172.28.0.1:33982 on port 1883.
+1708526544: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526544: New client connected from 172.28.0.1:33982 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526545: New connection from 172.28.0.1:33984 on port 1883.
+1708526545: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526545: New client connected from 172.28.0.1:33984 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526546: New connection from 172.28.0.1:42474 on port 1883.
+1708526546: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526546: New client connected from 172.28.0.1:42474 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526547: New connection from 172.28.0.1:42480 on port 1883.
+1708526547: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526547: New client connected from 172.28.0.1:42480 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526548: New connection from 172.28.0.1:42494 on port 1883.
+1708526548: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526548: New client connected from 172.28.0.1:42494 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526549: New connection from 172.28.0.1:42496 on port 1883.
+1708526549: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526549: New client connected from 172.28.0.1:42496 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526550: New connection from 172.28.0.1:42508 on port 1883.
+1708526550: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526550: New client connected from 172.28.0.1:42508 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526551: New connection from 172.28.0.1:42520 on port 1883.
+1708526551: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526551: New client connected from 172.28.0.1:42520 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526552: New connection from 172.28.0.1:42522 on port 1883.
+1708526552: Client mqtt-explorer-8ff66048 already connected, closing old connection.
+1708526552: New client connected from 172.28.0.1:42522 as mqtt-explorer-8ff66048 (p2, c1, k60).
+1708526589: Client mqtt-explorer-8ff66048 disconnected.
+1708526602: Client auto-4035ABF4-DAC0-AC38-38D8-E0B545F26A9D closed its connection.
+1708526602: mosquitto version 2.0.18 terminating
+1708526602: Saving in-memory database to /mosquitto/data//mosquitto.db.

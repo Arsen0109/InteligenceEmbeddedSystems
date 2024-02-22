@@ -10,7 +10,7 @@ services:
       - ./mosquitto/log:/mosquitto/log
     ports:
       - 1883:1883
-      - 9001:9001
+      - 9000:9000
     networks:
       mqtt_network:
 
