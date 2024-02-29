@@ -4,9 +4,11 @@ from schema.aggregated_data_schema import AggregatedDataSchema
 from file_datasource import FileDatasource
 import config
 
+
 def connect_mqtt(broker: str, port: int) -> mqtt_client.Client:
     """Create MQTT client"""
     print(f"CONNECT TO {broker}:{port}")
+
     def on_connect(client, userdata, flags, rc):
         if rc == 0:
             print(f"Connected to MQTT Broker ({broker}:{port})!")
@@ -18,6 +20,7 @@ def connect_mqtt(broker: str, port: int) -> mqtt_client.Client:
     client.connect(broker, port)
     client.loop_start()
     return client
+
 
 def publish(client: mqtt_client.Client, topic: str, datasource, delay: float) -> None:
     datasource.startReading()
@@ -35,7 +38,8 @@ def publish(client: mqtt_client.Client, topic: str, datasource, delay: float) ->
                 print(f"Send `{msg}` to topic `{topic}`")
             else:
                 print(f"Failed to send message to topic {topic}")
-            
+
+
 def run():
     # Prepare mqtt client
     client = connect_mqtt(config.MQTT_BROKER_HOST, config.MQTT_BROKER_PORT)
@@ -43,6 +47,7 @@ def run():
     datasource = FileDatasource("data/accelerometer.csv", "data/gps.csv", "data/parking.csv")
     # Infinity publish data
     publish(client, config.MQTT_TOPIC, datasource, config.DELAY)
+
 
 if __name__ == '__main__':
     run()

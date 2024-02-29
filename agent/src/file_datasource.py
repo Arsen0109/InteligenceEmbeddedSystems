@@ -19,7 +19,6 @@ class FileDatasource:
         while True:
             file = open(path)
             data_reader = reader(file)
-            header = next(data_reader)
 
             for row in data_reader:
                 yield row
@@ -50,5 +49,4 @@ class FileDatasource:
 
     def stopReading(self, *args, **kwargs):
         """Метод повинен викликатись для закінчення читання даних"""
-        # This one is redundant for now as the reading is infinite
         pass

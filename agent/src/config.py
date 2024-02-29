@@ -1,10 +1,12 @@
 import os
 
+
 def try_parse(type, value: str):
     try:
         return type(value)
     except Exception:
         return None
+
 
 # MQTT config
 MQTT_BROKER_HOST = os.environ.get('MQTT_BROKER_HOST') or 'mqtt'

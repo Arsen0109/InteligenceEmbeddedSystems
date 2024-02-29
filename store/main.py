@@ -1,7 +1,9 @@
-import asyncio
 import json
-from typing import Set, Dict, List, Any
-from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect, Body
+from datetime import datetime
+from typing import Set, Dict, List
+
+from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
+from pydantic import BaseModel, field_validator
 from sqlalchemy import (
     create_engine,
     MetaData,
@@ -10,12 +12,9 @@ from sqlalchemy import (
     Integer,
     String,
     Float,
-    DateTime,
-)
+    DateTime, select, )
 from sqlalchemy.orm import sessionmaker
-from sqlalchemy.sql import select
-from datetime import datetime
-from pydantic import BaseModel, field_validator
+
 from config import (
     POSTGRES_HOST,
     POSTGRES_PORT,
@@ -34,7 +33,7 @@ metadata = MetaData()
 processed_agent_data = Table(
     "processed_agent_data",
     metadata,
-    Column("id", Integer, primary_key=True, index=True),
+    Column("id", Integer, primary_key=True, index=True, autoincrement=True),
     Column("road_state", String),
     Column("user_id", Integer),
     Column("x", Float),
@@ -121,14 +120,27 @@ async def send_data_to_subscribers(user_id: int, data):
             await websocket.send_json(json.dumps(data))
 
 
-# FastAPI CRUDL endpoints
-
-
+# FastAPI CRUD endpoints
 @app.post("/processed_agent_data/")
 async def create_processed_agent_data(data: List[ProcessedAgentData]):
-    # Insert data to database
-    # Send data to subscribers
-    pass
+    session = SessionLocal()
+    for item in data:
+        new_entry = processed_agent_data.insert().values(
+            road_state=item.road_state,
+            user_id=item.agent_data.user_id,
+            x=item.agent_data.accelerometer.x,
+            y=item.agent_data.accelerometer.y,
+            z=item.agent_data.accelerometer.z,
+            latitude=item.agent_data.gps.latitude,
+            longitude=item.agent_data.gps.longitude,
+            timestamp=item.agent_data.timestamp,
+        )
+        session.execute(new_entry)
+    session.commit()
+    session.close()
+    for item in data:
+        await send_data_to_subscribers(item.agent_data.user_id, item.dict())
+    return {"message": "Data created successfully"}
 
 
 @app.get(
@@ -136,14 +148,22 @@ async def create_processed_agent_data(data: List[ProcessedAgentData]):
     response_model=ProcessedAgentDataInDB,
 )
 def read_processed_agent_data(processed_agent_data_id: int):
-    # Get data by id
-    pass
+    session = SessionLocal()
+    query = select(processed_agent_data).where(processed_agent_data.c.id == processed_agent_data_id)
+    result = session.execute(query).fetchone()
+    session.close()
+    if result is None:
+        raise HTTPException(status_code=404, detail="Data not found")
+    return ProcessedAgentDataInDB(**result._mapping)
 
 
 @app.get("/processed_agent_data/", response_model=list[ProcessedAgentDataInDB])
 def list_processed_agent_data():
-    # Get list of data
-    pass
+    session = SessionLocal()
+    query = select(processed_agent_data)
+    result = session.execute(query).fetchall()
+    session.close()
+    return [ProcessedAgentDataInDB(**row._mapping) for row in result]
 
 
 @app.put(
@@ -151,8 +171,25 @@ def list_processed_agent_data():
     response_model=ProcessedAgentDataInDB,
 )
 def update_processed_agent_data(processed_agent_data_id: int, data: ProcessedAgentData):
-    # Update data
-    pass
+    session = SessionLocal()
+    update_query = processed_agent_data.update().where(processed_agent_data.c.id == processed_agent_data_id).values(
+        road_state=data.road_state,
+        user_id=data.agent_data.user_id,
+        x=data.agent_data.accelerometer.x,
+        y=data.agent_data.accelerometer.y,
+        z=data.agent_data.accelerometer.z,
+        latitude=data.agent_data.gps.latitude,
+        longitude=data.agent_data.gps.longitude,
+        timestamp=data.agent_data.timestamp,
+    )
+    session.execute(update_query)
+    session.commit()
+    select_query = select(processed_agent_data).where(processed_agent_data.c.id == processed_agent_data_id)
+    result = session.execute(select_query).fetchone()
+    session.close()
+    if result is None:
+        raise HTTPException(status_code=404, detail="Data not found")
+    return ProcessedAgentDataInDB(**result._mapping)
 
 
 @app.delete(
@@ -160,8 +197,16 @@ def update_processed_agent_data(processed_agent_data_id: int, data: ProcessedAge
     response_model=ProcessedAgentDataInDB,
 )
 def delete_processed_agent_data(processed_agent_data_id: int):
-    # Delete by id
-    pass
+    session = SessionLocal()
+    select_query = select(processed_agent_data).where(processed_agent_data.c.id == processed_agent_data_id)
+    result = session.execute(select_query).fetchone()
+    if result is None:
+        raise HTTPException(status_code=404, detail="Data not found")
+    delete_query = processed_agent_data.delete().where(processed_agent_data.c.id == processed_agent_data_id)
+    session.execute(delete_query)
+    session.commit()
+    session.close()
+    return ProcessedAgentDataInDB(**result._mapping)
 
 
 if __name__ == "__main__":
