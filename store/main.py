@@ -123,7 +123,7 @@ async def send_data_to_subscribers(user_id: int, data):
 # FastAPI CRUD endpoints
 @app.post("/processed_agent_data/")
 async def create_processed_agent_data(data: List[ProcessedAgentData]):
-    session = SessionLocal()
+    session_local = SessionLocal()
     for item in data:
         new_entry = processed_agent_data.insert().values(
             road_state=item.road_state,
@@ -135,12 +135,12 @@ async def create_processed_agent_data(data: List[ProcessedAgentData]):
             longitude=item.agent_data.gps.longitude,
             timestamp=item.agent_data.timestamp,
         )
-        session.execute(new_entry)
-    session.commit()
-    session.close()
+        session_local.execute(new_entry)
+    session_local.commit()
+    session_local.close()
     for item in data:
         await send_data_to_subscribers(item.agent_data.user_id, item.dict())
-    return {"message": "Data created successfully"}
+    return {"message": "Data created successfully."}
 
 
 @app.get(
@@ -148,21 +148,21 @@ async def create_processed_agent_data(data: List[ProcessedAgentData]):
     response_model=ProcessedAgentDataInDB,
 )
 def read_processed_agent_data(processed_agent_data_id: int):
-    session = SessionLocal()
+    session_local = SessionLocal()
     query = select(processed_agent_data).where(processed_agent_data.c.id == processed_agent_data_id)
-    result = session.execute(query).fetchone()
-    session.close()
+    result = session_local.execute(query).fetchone()
+    session_local.close()
     if result is None:
-        raise HTTPException(status_code=404, detail="Data not found")
+        raise HTTPException(status_code=404, detail=f"Error, agent data with id:{processed_agent_data_id} not found")
     return ProcessedAgentDataInDB(**result._mapping)
 
 
 @app.get("/processed_agent_data/", response_model=list[ProcessedAgentDataInDB])
 def list_processed_agent_data():
-    session = SessionLocal()
+    session_local = SessionLocal()
     query = select(processed_agent_data)
-    result = session.execute(query).fetchall()
-    session.close()
+    result = session_local.execute(query).fetchall()
+    session_local.close()
     return [ProcessedAgentDataInDB(**row._mapping) for row in result]
 
 
@@ -171,7 +171,7 @@ def list_processed_agent_data():
     response_model=ProcessedAgentDataInDB,
 )
 def update_processed_agent_data(processed_agent_data_id: int, data: ProcessedAgentData):
-    session = SessionLocal()
+    session_local = SessionLocal()
     update_query = processed_agent_data.update().where(processed_agent_data.c.id == processed_agent_data_id).values(
         road_state=data.road_state,
         user_id=data.agent_data.user_id,
@@ -182,13 +182,13 @@ def update_processed_agent_data(processed_agent_data_id: int, data: ProcessedAge
         longitude=data.agent_data.gps.longitude,
         timestamp=data.agent_data.timestamp,
     )
-    session.execute(update_query)
-    session.commit()
+    session_local.execute(update_query)
+    session_local.commit()
     select_query = select(processed_agent_data).where(processed_agent_data.c.id == processed_agent_data_id)
-    result = session.execute(select_query).fetchone()
-    session.close()
+    result = session_local.execute(select_query).fetchone()
+    session_local.close()
     if result is None:
-        raise HTTPException(status_code=404, detail="Data not found")
+        raise HTTPException(status_code=404, detail="Error while updating processed agent data")
     return ProcessedAgentDataInDB(**result._mapping)
 
 
@@ -197,15 +197,15 @@ def update_processed_agent_data(processed_agent_data_id: int, data: ProcessedAge
     response_model=ProcessedAgentDataInDB,
 )
 def delete_processed_agent_data(processed_agent_data_id: int):
-    session = SessionLocal()
+    session_local = SessionLocal()
     select_query = select(processed_agent_data).where(processed_agent_data.c.id == processed_agent_data_id)
-    result = session.execute(select_query).fetchone()
+    result = session_local.execute(select_query).fetchone()
     if result is None:
-        raise HTTPException(status_code=404, detail="Data not found")
+        raise HTTPException(status_code=404, detail=f"Error, data with id:{processed_agent_data_id} not found")
     delete_query = processed_agent_data.delete().where(processed_agent_data.c.id == processed_agent_data_id)
-    session.execute(delete_query)
-    session.commit()
-    session.close()
+    session_local.execute(delete_query)
+    session_local.commit()
+    session_local.close()
     return ProcessedAgentDataInDB(**result._mapping)
 
 
