@@ -38,7 +38,7 @@ app = FastAPI()
 
 @app.post("/processed_agent_data/")
 async def save_processed_agent_data(processed_agent_data: ProcessedAgentData):
-    redis_client.lpush("processed_agent_data", processed_agent_data.model_dump_json())
+    await redis_client.lpush("processed_agent_data", processed_agent_data.model_dump_json())
     if redis_client.llen("processed_agent_data") >= BATCH_SIZE:
         processed_agent_data_batch: List[ProcessedAgentData] = []
         for _ in range(BATCH_SIZE):
