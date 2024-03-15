@@ -12,6 +12,6 @@ class StoreApiAdapter(StoreGateway):
         self.api_base_url = api_base_url
 
     def save_data(self, processed_agent_data_batch: List[ProcessedAgentData]):
-        json_data = [json.loads(agent_data.json) for agent_data in processed_agent_data_batch]
-        response: requests.Response = requests.post(self.api_base_url + "/processed_agent_data/", json=json_data)
+        json_data = [json.loads(agent_data.json()) for agent_data in processed_agent_data_batch]
+        response = requests.post(self.api_base_url + "/processed_agent_data/", json=json_data)
         return response.status_code == 200

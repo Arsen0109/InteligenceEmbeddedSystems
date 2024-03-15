@@ -1,3 +1,4 @@
+import json
 import logging
 from typing import List
 
@@ -36,9 +37,17 @@ store_adapter = StoreApiAdapter(api_base_url=STORE_API_BASE_URL)
 app = FastAPI()
 
 
+def publish_messages(client, topic, messages):
+    data = [json.loads(item.json()) for item in messages]
+    for message in data:
+        message_str = json.dumps(message)
+        print("Data to mqtt", message_str)
+        client.publish(topic, message_str)
+
+
 @app.post("/processed_agent_data/")
 async def save_processed_agent_data(processed_agent_data: ProcessedAgentData):
-    await redis_client.lpush("processed_agent_data", processed_agent_data.model_dump_json())
+    redis_client.lpush("processed_agent_data", processed_agent_data.model_dump_json())
     if redis_client.llen("processed_agent_data") >= BATCH_SIZE:
         processed_agent_data_batch: List[ProcessedAgentData] = []
         for _ in range(BATCH_SIZE):
@@ -48,6 +57,7 @@ async def save_processed_agent_data(processed_agent_data: ProcessedAgentData):
             processed_agent_data_batch.append(processed_agent_data)
         print(processed_agent_data_batch)
         store_adapter.save_data(processed_agent_data_batch=processed_agent_data_batch)
+        publish_messages(client, MQTT_TOPIC, processed_agent_data_batch)
     return {"status": "ok"}
 
 
