@@ -55,22 +55,3 @@ class AgentMQTTAdapter(AgentGateway):
 
     def stop(self):
         self.client.loop_stop()
-
-
-# Usage example:
-if __name__ == "__main__":
-    broker_host = "localhost"
-    broker_port = 1883
-    topic = "agent_data_topic"
-    # Assuming you have implemented the StoreGateway and passed it to the adapter
-    store_gateway = HubGateway()
-    adapter = AgentMQTTAdapter(broker_host, broker_port, topic, store_gateway)
-    adapter.connect()
-    adapter.start()
-    try:
-        # Keep the adapter running in the background
-        while True:
-            pass
-    except KeyboardInterrupt:
-        adapter.stop()
-        logging.info("Adapter stopped.")
